@@ -27,3 +27,18 @@ of a given text.
 * [ ] Tab (`\t`) width support
 * [ ] Soft-wrapping on text-width support
 * [ ] C API
+
+## Installing
+
+If you don't have rust compiler and cargo installed follow instructions on
+https://www.rustup.rs/ .
+
+Afterwards:
+
+```
+cargo install text-minimap
+```
+
+## Using
+
+Check `text-minimap --help` output.
