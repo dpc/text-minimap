@@ -1,0 +1,25 @@
+[package]
+name = "text-minimap"
+description = "Generate text minimap/preview using Braille Patterns"
+version = "0.1.0"
+authors = ["Dawid Ciężarkiewicz <dpc@dpc.pw>"]
+keywords = ["text", "terminal", "tool", "hierarchical"]
+categories = ["command-line-utilities", "text-processing"]
+license = "MPL-2.0"
+documentation = "https://docs.rs/text-minimap"
+homepage = "https://github.com/dpc/text-minimap"
+repository = "https://github.com/dpc/text-minimap"
+readme = "README.md"
+
+
+[[bin]]
+path = "src/bin.rs"
+name = "text-minimap"
+
+[lib]
+path = "lib/mod.rs"
+
+[dependencies]
+clap = "2.23"
+itertools = "0.6.0"
+unicode-segmentation = "1.1.0"
