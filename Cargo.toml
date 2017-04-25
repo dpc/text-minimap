@@ -15,9 +15,11 @@ readme = "README.md"
 [[bin]]
 path = "src/bin.rs"
 name = "text-minimap"
+doc = false
 
 [lib]
 path = "lib/mod.rs"
+name = "text_minimap"
 
 [dependencies]
 clap = "2.23"
