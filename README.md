@@ -28,6 +28,10 @@ of a given text.
 * [ ] Soft-wrapping on text-width support
 * [ ] C API
 
+## Alternatives
+
+* [wfxr/code-minimap](https://github.com/wfxr/code-minimap) - seems also written in Rust and with more effort put into it, so you probably should prefer it over this project; probably - I had no time to check the details myself;
+
 ## Installing
 
 If you don't have rust compiler and cargo installed follow instructions on
